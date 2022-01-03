@@ -7,9 +7,9 @@ local rmc = {}
 rmc.__index = rmc
 
 --[[ Configuration ]] --
-local Server = "https://103287c8010e.ngrok.io"
-local Username = "Testing"
-local Password = "Testing"
+local Server = "https://pt-ca-mtl01.pyrohost.cloud:10227"
+local Username = "admin"
+local Password = "aP@55word"
 
 --[[ Internal Functions ]]--
 function rmc:GetData(combinedKey, default)
